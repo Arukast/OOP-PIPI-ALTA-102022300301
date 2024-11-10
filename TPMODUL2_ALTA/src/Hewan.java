@@ -16,7 +16,7 @@ public class Hewan {
     }
 
     public String makan(String makanan) {
-        return this.nama + " sedang makan " + makanan;
+        return nama + " sedang makan " + makanan;
     }
 
     public void infoHewan() {

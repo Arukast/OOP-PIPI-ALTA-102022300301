@@ -52,11 +52,11 @@ public class ManajemenInventaris {
         } else {
             // Todo : Create print notification for Makanan Kering  
             for (int i = 0; i < daftarMakananKering.size(); i++) {
-                
+                daftarMakananKering.get(i).showData();
             }
             // Todo : Create print notification for  Makanan Basah
             for (int i = 0; i < daftarMakananBasah.size(); i++) {
-
+                daftarMakananBasah.get(i).showData();
             }
         }
     }

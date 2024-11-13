@@ -40,7 +40,7 @@ public class MakananBasah {
         this.bahan = bahan;
     }
     // Todo : Create Method ShowData
-    public void showData(String nama, int jumlah, double harga, String bahan) {
+    public void showData() {
         System.out.println("Nama makanan: " + nama + "\nJumlah: " + jumlah + "\nHarga: " + harga + "\nBahan: " + bahan);
     }
 }

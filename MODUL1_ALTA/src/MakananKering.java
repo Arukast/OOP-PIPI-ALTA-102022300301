@@ -40,7 +40,7 @@ public class MakananKering {
         this.brand = brand;
     }
     // Todo : Create Method ShowData
-    public void showData(String nama, int jumlah, double harga, String brand) {
+    public void showData() {
         System.out.println("Nama makanan: " + nama + "\nJumlah: " + jumlah + "\nHarga: " + harga + "\nBrand: " + brand);
     }
 }
